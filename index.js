@@ -1,6 +1,8 @@
 function debounce(callBack, delay) {
+    let timeout;
     return (...args) => {
-        setTimeout(() => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
             callBack(...args);
         }, delay);
     };
