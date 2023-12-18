@@ -1,5 +1,5 @@
 {
-  "name": "simple-debounce",
+  "name": "debounce-basic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Krystian Zieja",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.5",
